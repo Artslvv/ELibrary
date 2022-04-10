@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ELibrary</name>
+    </assembly>
+    <members>
+        <member name="M:ELibrary.Controllers.AccountsController.Login(System.String,System.String)">
+            <summary>
+            login
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Успешно </response>
+            <response code="400"> Вы не зарегистрированы </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Get(System.Int32)">
+            <summary>
+            Поиск книги по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Книга найдена </response>
+            <response code="204"> Книга не найдена </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Search(System.String)">
+            <summary>
+            Поиск книги
+            </summary>
+            <param name="search"></param>
+            <response code="200"> Книга найдена </response>
+            <response code="204"> Книга не найдена </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.GetAll(System.Int32,System.Int32)">
+            <summary>
+            Получение списка книг
+            </summary>
+            <param name="skip,take,take"></param>
+            <response code="200"> Список </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Create(ELibrary.Models.BookDtoCreate)">
+            <summary>
+            Создание книги
+            </summary>
+            <param name="id"></param>
+            <response code="200"> книга создана </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="404"> книга не создан </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Update(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Изменение Book по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Данные книги были изменены </response>
+            <response code="204"> Книга не найдена для изменения </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Buy(System.Int32)">
+            <summary>
+            Покупка книги по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Книга куплена </response>
+            <response code="204"> Книга не найдена для покупки </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Доступ ограничен </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.BookConroller.Delete(System.Int32)">
+            <summary>
+            Удаление Book по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Книга удалена </response>
+            <response code="204"> Книга не найдена для удаления </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Получение user по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> User найден </response>
+            <response code="204"> User не найден </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.UserController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            Получение списка users
+            </summary>
+            <param name="id"></param>
+            <response code="200"> Список </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.UserController.Create(ELibrary.Models.UserDtoCreate)">
+            <summary>
+            Создание user по
+            </summary>
+            <param name="id"></param>
+            <response code="200"> User создан </response>
+            <response code="404"> User не создан </response>
+            <response code="500"> Некорректный ввод данных </response>
+            <returns></returns> 
+        </member>
+        <member name="M:ELibrary.Controllers.UserController.Update(ELibrary.Models.UserDtoUpdate)">
+            <summary>
+            Изменение user по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> User был изменен </response>
+            <response code="204"> User не был найден</response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="500"> Некорректный ввод данных </response>
+            <returns></returns>
+        </member>
+        <member name="M:ELibrary.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Удаление user по id
+            </summary>
+            <param name="id"></param>
+            <response code="200"> User был удален </response>
+            <response code="204"> User не был найден </response>
+            <response code="401"> Ошибка авторизации </response>
+            <response code="403"> Ошибка прав доступа </response>
+            <response code="500"> Ошибка </response>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

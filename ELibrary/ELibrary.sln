@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELibrary", "ELibrary\ELibrary.csproj", "{657FE2FA-831A-4083-8057-95FEB509FF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{6DD2E3E3-2C99-4AD5-9675-06875F1A4C69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657FE2FA-831A-4083-8057-95FEB509FF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657FE2FA-831A-4083-8057-95FEB509FF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657FE2FA-831A-4083-8057-95FEB509FF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657FE2FA-831A-4083-8057-95FEB509FF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD2E3E3-2C99-4AD5-9675-06875F1A4C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD2E3E3-2C99-4AD5-9675-06875F1A4C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD2E3E3-2C99-4AD5-9675-06875F1A4C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD2E3E3-2C99-4AD5-9675-06875F1A4C69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.deps.json
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.json
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.runtimeconfig.dev.json
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\ref\DataAccessLayer.dll
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.AssemblyInfo.cs
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.dll
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\ref\DataAccessLayer.dll
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.pdb
+D:\Artslv\artslv\ELibrary\ELibrary\DataAccessLayer\obj\Debug\net5.0\DataAccessLayer.genruntimeconfig.cache
